@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    height:fit-content;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(182, 49, 82);
+    height: 50px;
+}
+
+.logo {
+    font-size: 24px;
+    padding-left: 40px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.795);
+}
+
+.nav-bar-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    padding-right: 40px;
+    padding-left: 40px;
+
+}
+
+button {
+    border: none;
+    padding: 0 10px 0 10px;
+    background-color: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.904);
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.808);
+    padding:0 40px 0 40px;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    flex-shrink: 0;
+    padding: 20px;
+}
+
+.intro-title, .intro-text {
+    color: rgba(255, 255, 255, 0.795);
+
+}
+
+.intro-title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.header-image {
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-wrap: wrap;
+    padding: 40px;
+    height: fit-content;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 350px;
+    border: solid;
+    border-radius: 5%;
+    border-color:  rgb(182, 49, 82);
+    padding: 2px;
+    margin: 10px;
+}
+
+.card-image {
+    height: 150px;
+    width: 300px;
+    border-radius: 5%;
+}
+
+.card-text {
+    height: 150px;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.808);
+}
+
+.community-games {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0 20px 0;
+    background-color: rgba(0, 0, 0, 0.808);;
+}
+
+.community-games-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.community-games-title {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.community-games-title, .community-games-subtext {
+    color:rgba(255, 255, 255, 0.904);
+    text-align: center;
+}
+
+.games-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 500px;
+    padding-left: 30px;
+
+}
+
+.game {
+    margin: 5px;
+    border: solid;
+    border-radius: 5%;
+    border-color: rgb(182, 49, 82);
+    width: 140px;
+    height: 140px;
+}
