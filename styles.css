@@ -1,6 +1,7 @@
 body {
     margin: 0;
     height:fit-content;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .nav-bar {
@@ -15,7 +16,7 @@ body {
     font-size: 24px;
     padding-left: 40px;
     font-weight: 700;
-    color: rgba(255, 255, 255, 0.795);
+    color: rgba(255, 255, 255);
 }
 
 .nav-bar-buttons {
@@ -27,13 +28,13 @@ body {
 
 }
 
-button {
+.nav-button {
     border: none;
     padding: 0 10px 0 10px;
     background-color: inherit;
     font-size: 16px;
     font-weight: 700;
-    color: rgba(255, 255, 255, 0.904);
+    color: rgba(255, 255, 255);
 }
 
 .header {
@@ -57,7 +58,7 @@ button {
 }
 
 .intro-title, .intro-text {
-    color: rgba(255, 255, 255, 0.795);
+    color: rgba(255, 255, 255);
 
 }
 
@@ -79,6 +80,7 @@ button {
     flex-wrap: wrap;
     padding: 40px;
     height: fit-content;
+    background-color: rgba(255, 255, 255, 0.801);
 }
 
 .card {
@@ -128,7 +130,7 @@ button {
 }
 
 .community-games-title, .community-games-subtext {
-    color:rgba(255, 255, 255, 0.904);
+    color:rgba(255, 255, 255);
     text-align: center;
 }
 
@@ -149,4 +151,49 @@ button {
     border-color: rgb(182, 49, 82);
     width: 140px;
     height: 140px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.801);
+}
+
+.socials, .contact-information, .address, .subscriber-signup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    width: 300px;
+}
+
+.socials-header, .contact-header, .subscriber-signup-header {
+    font-weight: 700;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.contact-footer-title {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.footer-button-socials, .contact-footer {
+    border: none;
+    background: none;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(182, 49, 82);
+    text-decoration: none;
+    width: fit-content;
+}
+
+
+
+.subscriber-input {
+    margin: 10px;
+    width: fit-content;
 }
