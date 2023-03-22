@@ -1,15 +1,16 @@
 body {
     margin: 0;
     height:fit-content;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .nav-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     background-color: rgb(182, 49, 82);
-    height: 50px;
+    padding: 15px;
 }
 
 .logo {
@@ -22,7 +23,8 @@ body {
 .nav-bar-buttons {
     display: flex;
     justify-content: space-between;
-    width: 600px;
+    width: fit-content;
+    flex-wrap: wrap;
     padding-right: 40px;
     padding-left: 40px;
 
@@ -52,8 +54,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 400px;
-    flex-shrink: 0;
+    max-width: 400px;
+    min-width: 200px;
     padding: 20px;
 }
 
@@ -115,6 +117,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     padding: 20px 0 20px 0;
     background-color: rgba(0, 0, 0, 0.808);;
 }
@@ -122,11 +125,13 @@ body {
 .community-games-text {
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 
 .community-games-title {
     font-weight: 700;
-    font-size: 22px;
+    font-size: 26px;
+    padding: 20px;
 }
 
 .community-games-title, .community-games-subtext {
@@ -161,7 +166,7 @@ body {
     background-color: rgba(255, 255, 255, 0.801);
 }
 
-.socials, .contact-information, .address, .subscriber-signup {
+.socials, .contact-information, .contact-address, .subscriber-signup {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -178,6 +183,7 @@ body {
 .contact-footer-title {
     font-size: 15px;
     font-weight: 600;
+    font-style: normal;
 }
 
 .footer-button-socials, .contact-footer {
@@ -189,6 +195,7 @@ body {
     color: rgb(182, 49, 82);
     text-decoration: none;
     width: fit-content;
+    font-style: normal;
 }
 
 
