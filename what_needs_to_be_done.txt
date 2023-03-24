@@ -1,0 +1,5 @@
+This is a simple list of things that needs to be done on this website.
+
+ - Add additional horizontal section above the footer in the index.html page because it would have a better look if it didn't end on a whitespace background
+ - Find ideas for the design of the other pages and start developing those pages
+ - Decide what the "Wuddup" page is going to be (what content will it hold?) so you decide on how you want to style it (do we need a 4th page?)
