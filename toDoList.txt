@@ -1,4 +1,4 @@
-This is a simple list of things that needs to be done on this website.
+To Do List for Wuddup Website
 
  - Add additional horizontal section above the footer in the index.html page because it would have a better look if it didn't end on a whitespace background
  - Find ideas for the design of the other pages and start developing those pages
