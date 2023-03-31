@@ -6,3 +6,4 @@ To Do List for Wuddup Website
  - Create a minimum size for certain parts of websites that fit well on a phone screen, but then allow them to grow larger (up to a max size) for larger screens. Use the flex shrink grow and basis properties to help facilitate this with a minimum and maximum size.
  - Might be good practice to rename the image files to something less cumbersome to deal with, just saying.
  - Edit cards on index.html to have more visual similarity with the tiles on the games.html page. (try to have the visuals flow between pages)
+ - Colors don't look good, research good matching colors and recolor webpages.

@@ -257,7 +257,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+
     height: fit-content;
     background-color: rgba(0, 0, 0, 0.808);
     padding:0 40px 0 40px;
@@ -267,8 +267,15 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
+
     width: 100%;
+
+}
+
+@media screen and (max-width: 946px) {
+    .aboutus-header-content {
+        flex-wrap: wrap;
+    }
 
 }
 
@@ -300,7 +307,11 @@ body {
     flex: auto;
     max-height: 500px;
     max-width: 600px;
+    min-width: 300px;
+    min-height: 250px;
     padding: 30px;
+    flex-shrink: 1;
+
 }
 
 .aboutus-intro {
@@ -311,21 +322,24 @@ body {
     font-weight: 600;
     color: white;
     padding: 30px;
+    flex-shrink: 1;
 }
 
 .aboutus-cards {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: baseline;
     flex-wrap: wrap;
 }
 
 .aboutus-card {
     display: flex;
     flex-direction: column;
-
+    flex-shrink: 1;
+    max-width: 430px;
+    max-height: 530px;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
     margin: 10px;
     background-color: rgb(182, 49, 82);;
     border-radius: 5%;
@@ -333,14 +347,14 @@ body {
 }
 
 .aboutus-card-image {
-    width: 400px;
-    height: 400px;
+    max-width: 400px;
+    max-height: 400px;
     border-radius: 5%;
 
 }
 
 .aboutus-card-text {
-    width: 400px;
+    max-width: 400px;
     height: fit-content;
     text-align: center;
     color: white;
